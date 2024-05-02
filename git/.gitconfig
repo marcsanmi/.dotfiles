@@ -1,0 +1,17 @@
+[user]
+    email = marcsanmiquel@gmail.com
+    name = Marc Sanmiquel
+
+[core]
+    editor = nvim
+    excludesFile = ~/.global_gitignore
+
+[alias]
+    br = branch
+    co = checkout
+    ci = commit
+    df = diff
+    st = status
+    undo-commit = reset --soft HEAD^
+    purge-br= !sh -c 'git branch --merged | grep -v "^*" | xargs git branch -d'
+
