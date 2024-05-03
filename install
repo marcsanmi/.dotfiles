@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # List of directories to stow
-DIRECTORIES="git nvim tmux zsh"
+DIRECTORIES="git nvim tmux zsh .config"
 
 for dir in $DIRECTORIES; do
     echo "Stowing $dir..."
-    stow -v -R $dir  # -v for verbose, -R for restow to handle updates
+    stow -v -R $dir # -v for verbose, -R for restow to handle updates
 done
 

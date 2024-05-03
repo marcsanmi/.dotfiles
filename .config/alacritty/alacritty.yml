@@ -1,0 +1,99 @@
+# Font config:
+font:
+    size: 14
+    # Normal (roman):
+    normal:
+        family: Hack Nerd Font
+        style: Regular
+
+    bold:
+        family: Hack Nerd Font
+        style: Bold
+
+    italic:
+        family: Hack Nerd Font
+        style: Italic
+
+    bold_italic:
+        family: Hack Nerd Font
+        style: Bold Italic
+
+window:
+  opacity: 0.94
+  decorations: buttonless
+  padding:
+    x: 5
+    y: 5
+
+# Send ESC (\x1b) before characters when alt is pressed.
+alt_send_esc: false
+
+#Key bindings
+key_bindings:
+  - { key: Return, mods: Control|Shift, action: SpawnNewInstance }
+  - { key: 10,        mods: Alt,    chars: "\x5c" } # `\`
+  - { key: 18,        mods: Alt,    chars: "\x7c" } # `|`
+  - { key: Key2,      mods: Alt,    chars: "@" } # `@`
+  - { key: Key3,      mods: Alt,    chars: "#" } # `#`
+  - { key: Key6,      mods: Alt,    chars: "¬" } # `¬`
+  - { key: 39,        mods: Alt,    chars: "{" } # `{`
+  - { key: 42,        mods: Alt,    chars: "}" } # `}`
+  - { key: 33,        mods: Alt,    chars: "[" } # `[`
+  - { key: 30,        mods: Alt,    chars: "]" } # `]`
+
+colors:
+  primary:
+    background: '#11121D'
+    foregraound: '#a9b1d6'
+    bright_foreground: '#ffffff'
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+  search:
+    matches:
+      foreground: '#44475a'
+      background: '#50fa7b'
+    focused_match:
+      foreground: '#44475a'
+      background: '#ffb86c'
+  footer_bar:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+  hints:
+    start:
+      foreground: '#282a36'
+      background: '#f1fa8c'
+    end:
+      foreground: '#f1fa8c'
+      background: '#282a36'
+  line_indicator:
+    foreground: None
+    background: None
+  selection:
+    text: CellForeground
+    background: '#44475a'
+  normal:
+    black: '#21222c'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#bd93f9'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#f8f8f2'
+  bright:
+    black: '#6272a4'
+    red: '#ff6e6e'
+    green: '#69ff94'
+    yellow: '#ffffa5'
+    blue: '#d6acff'
+    magenta: '#ff92df'
+    cyan: '#a4ffff'
+    white: '#ffffff'
+
+mouse:
+    hide_when_typing: true
+
