@@ -103,6 +103,9 @@ source ~/.zsh_profile
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+
+source $DOTFILES/zsh/aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
